@@ -135,7 +135,7 @@ works.
 > ```
 >
 > The approach above should be avoided in general — it's best to use semantic
-> HTML elements than to add explicit roles when possible, since semantic
+> HTML elements when possible rather than adding explicit roles, since semantic
 > elements (like anchor tags) have additional built-in behavior (like making the
 > browser navigate to a new page).
 
@@ -146,8 +146,8 @@ accessible to users with screen readers and other assistive technology.
 ### Identifying Accessible Roles
 
 One challenge of testing user interfaces using accessible roles is that it can
-be difficult to remember of what elements are associated with what roles. For
-example, if we know we're want to display an `<a>` tag but don't know what ARIA
+be difficult to remember what elements are associated with what roles. For
+example, if we know we want to display an `<a>` tag but don't know what ARIA
 role it has implicitly, we could look up the [documentation on MDN][a tag], find
 the "Properties" section, and see that it has an Implicit ARIA role of "link".
 That's quite a bit of digging though! A better way to reveal this information is
